@@ -1,0 +1,24 @@
+body{
+    position: fixed ;
+    top: 20%;
+    left: 40%;
+    align-items: center;
+    text-align: center;
+    background-color: #E29C5A
+}
+
+.calculator {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #2b8eea;
+    border-radius: 5%;
+    background-color: #5AA0E2;
+}
+
+.buttons{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10%;
+}
